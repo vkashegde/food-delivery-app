@@ -174,7 +174,7 @@ class _CartScreenState extends State<CartScreen> {
                   ],
                 ),
                 SizedBox(
-                  height: 100,
+                  height: 80,
                 )
               ],
             ),
@@ -189,7 +189,7 @@ class _CartScreenState extends State<CartScreen> {
         itemCount: currentUser.cart.length + 1,
       ),
       bottomSheet: Container(
-        height: 100,
+        height: 80,
         width: MediaQuery.of(context).size.width,
         decoration:
             BoxDecoration(color: Theme.of(context).primaryColor, boxShadow: [
